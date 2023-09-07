@@ -1,0 +1,42 @@
+@use "style/fonts";
+@use "style/variables";
+@use "style/main.scss";
+@use "style/header.scss";
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; text-decoration: none;}
+::selection { color: inherit !important; background-color: hsla(220, 100%, 0%, 0.2) !important; }
+*:focus-visible { outline: 1.5px solid variables.$fg-color-1; border-radius: 1px; }
+
+html {
+    scrollbar-color: variables.$fg-color-0 transparent;
+    scroll-behavior: smooth; scrollbar-width: thin;
+    line-height: 1.5; tab-size: 4;
+    font-family: variables.$font-sans-serif;
+    font-weight: 400;
+}
+
+a { display: block; color: inherit; font-family: variables.$font-monospace; }
+body {
+    width: 100vw;
+    height: fit-content;
+    overflow-x: hidden;
+    color: variables.$fg-color-1;
+    background-color: variables.$bg-color-0;
+}
+
+@media (prefers-reduce-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
