@@ -1,11 +1,10 @@
 import * as Factory from './Factory.jsx'
 
 const MainContent = () => {
-    const decoration1 = "/src/assets/images/decoration-1.svg";
-    const decoration2 = "/src/assets/images/decoration-2.svg";
-    const decoration3 = "/src/assets/images/decoration-3.svg";
-    const decoration4 = "/src/assets/images/decoration-4.svg";
-    const decoration5 = "/src/assets/images/decoration-5.svg";
+    const decoration1 = "/images/decoration-1.svg";
+    const decoration2 = "/images/decoration-2.svg";
+    const decoration3 = "/images/decoration-3.svg";
+    const decoration5 = "/images/decoration-5.svg";
 
     return (
         <main>
@@ -16,7 +15,6 @@ const MainContent = () => {
                 <Factory.CreateDecoration top="40%" left="80%" backgroundImage={decoration2}/>
                 <Factory.CreateDecoration top="20%" left="80%" backgroundImage={decoration3}/>
                 <Factory.CreateDecoration top="90%" left="80%" backgroundImage={decoration3}/>
-                <Factory.CreateDecoration top="60%" left="70%" backgroundImage={decoration4}/>
                 <Factory.CreateDecoration top="78%" left="79%" backgroundImage={decoration5} height="5rem"/>
                 <div>
                     <h2>NAME</h2>

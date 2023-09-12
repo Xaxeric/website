@@ -1,7 +1,7 @@
 [role="banner"] {
     width: 100%;
     min-height: 100vh;
-    background-image: url("/src/assets/images/dot.png"), url("/src/assets/images/fhumkciyz0x91.jpg");
+    background-image: url("/images/dot.png"), url("/images/fhumkciyz0x91.jpg");
     background-size: 3px, cover;
     background-position: center;
     background-repeat: repeat, no-repeat;
@@ -31,7 +31,7 @@
 
 [role="banner"]:after {
   filter: contrast(50%);
-  background-image: url("/src/assets/images/separator-0.svg");
+  background-image: url("/images/separator-0.svg");
   background-repeat: repeat-x;
   background-position-x: center;
   background-position-y: top;
