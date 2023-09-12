@@ -6,7 +6,6 @@ const MainContent = () => {
     const decoration3 = "/src/assets/images/decoration-3.svg";
     const decoration4 = "/src/assets/images/decoration-4.svg";
     const decoration5 = "/src/assets/images/decoration-5.svg";
-    const decoration6 = "/src/assets/images/decoration-6.svg";
 
     return (
         <main>
@@ -19,7 +18,6 @@ const MainContent = () => {
                 <Factory.CreateDecoration top="90%" left="80%" backgroundImage={decoration3}/>
                 <Factory.CreateDecoration top="60%" left="70%" backgroundImage={decoration4}/>
                 <Factory.CreateDecoration top="78%" left="79%" backgroundImage={decoration5} height="5rem"/>
-                <Factory.CreateDecoration top="50%" left="60%" backgroundImage={decoration6}/>
                 <div>
                     <h2>NAME</h2>
                     <p>Xaxeric</p>

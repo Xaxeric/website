@@ -1,8 +1,10 @@
+import video from '../../src/video/topo-landing.webm'
+
 const Header = () => {
     return (
       <header id="header" role="banner">
         <video preload="auto" loop autoPlay>
-          <source src="/src/assets/video/topo-landing.webm" type="video/webm" />
+          <source src={video} type="video/webm" />
         </video>
         <section>
           <h1 title="INTRODUCTION">INTRODUCTION</h1>
